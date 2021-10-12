@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --primary-color: crimson;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    margin: 2rem 0rem;
+}
+
+.container{
+    padding-left: 1rem;
+    padding right: 1rem
+    ;
+}
+.container-centre{
+    max-width: 600px;
+    margin: auto;
+}
+
+.primary-link{
+    padding: 0.5rem;
+    background-color: crimson;
+    border-radius: 0.5rem;
+    color: cornsilk;
+}
+.secondary-link{
+padding: 0.5rem;
+color: cornsilk;
+background-color: crimson;
+border-radius: 00.5rem;
+}
+/** lists**/
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+/**navigation**/
+.navigation .nav-pills{
+ text-align: right;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: cornsilk;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+.navigation .link{
+    color: cornsilk;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/**header**//
+.hero{
+    padding: 2rem;
+}
+
+.hero-img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+.hero-heading{
+padding-left: 5rem;
+}
