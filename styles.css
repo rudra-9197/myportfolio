@@ -78,5 +78,30 @@ border-radius: 00.5rem;
     margin: auto;
 }
 .hero-heading{
-padding-left: 5rem;
+text-align: center;
+}
+
+/*section/**/
+.section{
+    padding: 2rem;
+}
+.section h3{
+text-align: center;
+
+}
+.ow{
+    background-color: rgb(214, 209, 209);
+}
+
+/**footr/**/
+.footer{
+    background-color: crimson;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: cornsilk;
+    border-bottom-right-radius: 1rem;
+}
+.footer .link{
+    color: cornsilk;
 }
