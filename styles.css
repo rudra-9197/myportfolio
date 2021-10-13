@@ -18,8 +18,10 @@ hr{
     ;
 }
 .container-centre{
-    max-width: 250px;
+    max-width: 50px;
     margin: auto;
+    width: 50;
+    border: 3px;
 }
 
 .primary-link{
