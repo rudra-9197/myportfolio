@@ -70,7 +70,7 @@ body {
 
 .hero-img {
  
-  max-width: auto;
+  max-width: 30em;
   display: block;
   margin: auto;
 }
