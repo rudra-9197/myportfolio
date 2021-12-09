@@ -1,143 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-:root{
-    --primary-color: #3b5998
-    
-
+:root {
+  --primary-color: #3b5998;
 }
-body{
-    font-family: 'Roboto', sans-serif;
-}
-hr{
-    margin: 2rem 0rem;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem ;
-}
-.container-centre{
-    max-width: auto;
-    margin: auto;
-    width: 50;
-    border: 3px;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    
+.container-centre {
+  max-width: auto;
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  text-align: center;
 }
 
-
-.primary-link{
-    padding: 0.5rem;
-    background-color: #3B5998;
-     border-radius: 0.5rem;
-    color: white;
-    font-size: 1.5rem;
-    text-decoration: solid;
+.primary-link {
+  padding: 0.5rem;
+  background-color: #3b5998;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: solid;
 }
-.primary-link:hover{
-    background-color: rebeccapurple;
+.primary-link:hover {
+  background-color: rebeccapurple;
 }
 
 /** lists**/
 
-.non-bullet{
-    list-style: none;
+.non-bullet {
+  list-style: none;
 }
 
-.list-inline{
-    display: inline;
-    padding: 0rem 1rem;
+.list-inline {
+  display: inline;
+  padding: 0rem 1rem;
 }
 
 /**navigation**/
-.navigation .nav-pills{
- text-align: right;
+.nav-pills {
+  text-align: right;
 }
-.navigation{
-    background-color: var(--primary-color);
-    color: cornsilk;
-    padding: 0.5rem;
-    border-bottom-left-radius: 1rem;
-    height: 6em;
-    
+.navigation {
+  background-color: var(--primary-color);
+  color: cornsilk;
+  padding: 0.5rem;
+  border-bottom-left-radius: 1rem;
+  height: 6em;
 }
-.navigation .link{
-    color: cornsilk;
-}
-
-.nav-brand{
-    font-weight: bold;
-    font-size: 3rem;
-}
-.navigation .link-active{
-    font-weight: bold;
+.navigation .link {
+  color: cornsilk;
 }
 
-/**header**//
-.hero{
-    padding: 2rem;
+.nav-brand {
+  font-weight: bold;
+  font-size: 3rem;
+}
+.navigation .link-active {
+  font-weight: bold;
 }
 
-.hero-img{
-   height: 100%;
-    max-width: 300px;
-    display: block;
-    margin: auto;
+/**header**/
+.hero {
+  padding: 2rem;
 }
-.hero-heading{
-text-align: center;
-color: darkblue;
-font-style: oblique;
 
+.hero-img {
+ 
+  max-width: auto;
+  display: block;
+  margin: auto;
+}
+.hero-heading {
+  text-align: center;
+  color: darkblue;
+  font-style: oblique;
 }
 /*section/**/
-.section{
-    padding: 1rem;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.section {
+  padding: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.section h2{
-text-align: center;
-color: darkblue;
-
+.section h2 {
+  text-align: center;
+  color: darkblue;
 }
-.ow{
-    background-color:  #dfe3ee;
+.ow {
+  background-color: #dfe3ee;
 }
 
 /**footr/**/
-.footer{
-    font-family: 'Pacifico', cursive;
-    background-color: #3b5998;
-    padding: 1rem;
-    padding-bottom: 2rem;
-    text-align: center;
-    color: cornsilk;
-    border-bottom-right-radius: 1rem;
-    
-    
+.footer {
+  font-family: "Pacifico", cursive;
+  background-color: #3b5998;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: cornsilk;
+  border-bottom-right-radius: 1rem;
 }
-.footer .footer-header{
-    font-weight: bold;
-    font-size: larger;}
-   
-.footer .link{
-    color: cornsilk;
-    font-size: larger;
+.footer .footer-header {
+  font-weight: bold;
+  font-size: larger;
 }
-.container-para{
-  
-    font-size: 1.5rem
+
+.footer .link {
+  color: cornsilk;
+  font-size: larger;
 }
-.link{
-    font-size: larger;
+.container-para {
+  font-size: 1.5rem;
 }
-.ol{
-    font-size: 2rem;
-    margin-left: 2rem;
-    margin-right: 0;
-    ;
+.link {
+  font-size: larger;
+}
+.ol {
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-right: 0;
 }
